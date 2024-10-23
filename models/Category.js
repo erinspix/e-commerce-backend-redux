@@ -9,7 +9,7 @@ Category.init(
     // define columns
     id:{
       type: DataTypes.INTEGER,
-      allowNll: false,
+      allowNull: false, // Corrected
       primaryKey: true,
       autoIncrement: true
     },
